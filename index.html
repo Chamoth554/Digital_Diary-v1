@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Digital Diary</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Custom styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f7f7f7;
+        }
+
+        .banner {
+            background: linear-gradient(to right, #6a11cb, #2575fc);
+            color: white;
+            padding: 100px 0;
+            text-align: center;
+            border-bottom: 5px solid #fff;
+        }
+
+        .banner h1 {
+            font-size: 3.5rem;
+            margin-bottom: 20px;
+        }
+
+        .btn-custom {
+            padding: 15px 30px;
+            font-size: 1.2rem;
+            margin: 20px 10px;
+            border-radius: 50px;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn-mentor {
+            background-color: #28a745;
+            color: white;
+        }
+
+        .btn-intern {
+            background-color: #007bff;
+            color: white;
+        }
+
+        .btn-custom:hover {
+            opacity: 0.8;
+        }
+
+        .container {
+            max-width: 800px;
+            margin-top: 50px;
+        }
+
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 50px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <!-- Banner Section -->
+    <div class="banner">
+        <h1>Welcome to Digital Diary</h1>
+        <p class="lead">Track your progress, tasks, and feedback efficiently</p>
+    </div>
+
+    <!-- Login Buttons Section -->
+    <div class="container text-center">
+        <h2>Select Your Role to Log In</h2>
+        <div class="mt-4">
+            <!-- Mentor Login Button -->
+            <a href="login.php" class="btn btn-custom btn-mentor">Mentor Login</a>
+
+            <!-- Intern Login Button -->
+            <a href="login.php" class="btn btn-custom btn-intern">Intern Login</a>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer">
+        <p>&copy; 2025 Digital Diary. All rights reserved.</p>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
